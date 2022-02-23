@@ -1,0 +1,9 @@
+.sobre {
+  background: rgb(250, 213, 229);
+  background: radial-gradient(
+    circle,
+    rgba(250, 213, 229, 1) 21%,
+    rgba(77, 119, 170, 1) 100%
+  );
+  text-align: center;
+}
