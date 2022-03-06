@@ -1,7 +1,7 @@
- .cabecalho {
-  background-color: #b8cfe5;
+.cabecalho {
+  background-color: rgba(32, 45, 58, 1);
 }
 
-.nav-title {
-  justify-content: right;
+#navbarNav {
+  justify-content: flex-end;
 }

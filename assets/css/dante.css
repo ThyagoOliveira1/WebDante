@@ -1,0 +1,48 @@
+.dante-container {
+    padding: 1.2em;
+    border-bottom: 2px solid #1e1d24;
+}
+
+.dante-section-title {
+    margin-bottom: 1em;
+    width: 25%;
+}
+
+.dante-wrap {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dante-bibliografia {
+    margin: 1.2em;
+    text-align: justify;
+}
+
+.dante-img {
+    width: 250px;
+    height: 250px;
+}
+
+@media screen and (max-width: 768px) {
+    .dante-wrap {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .dante-img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .dante-section-title {
+        width: 100%;
+    }
+
+    .dante-card-title {
+        text-align: center;
+    }
+}
